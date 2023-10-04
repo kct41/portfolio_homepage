@@ -1,14 +1,17 @@
 import './App.css';
-import Header from "./Header";
-import Content from "./Content";
+import Nav from "./comp/Nav";
+import Content from "./comp/Content";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-        <Header/>
-        <Content/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <Nav/>
+                <Content/>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;
