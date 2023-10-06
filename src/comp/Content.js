@@ -1,5 +1,5 @@
 import img from '../img/KakaoTalk_Photo_2023-10-04-14-29-41.png';
-import {ScrollToTopOnMount ,SectionsContainer, Section} from 'react-fullpage';
+import {ScrollToTopOnMount, SectionsContainer, Section} from 'react-fullpage';
 import Typed from 'typed.js';
 import React from 'react';
 
@@ -26,27 +26,12 @@ function Content() {
         scrollBar: false,
         navigation: true,
         verticalAlign: false,
-        sectionPaddingTop: '80px',
-        sectionPaddingBottom: '80px',
+        sectionPaddingTop: '0px',
+        sectionPaddingBottom: '0px',
         arrowNavigation: true,
     };
 
     return (
-        // <div className="Content">
-        //     <section className="home">
-        //         <div>
-        //             <div className="img_circle">
-        //                 <img alt="img" src={img}/>
-        //             </div>
-        //             <div className="text_box">반가워요!<br/>
-        //                 저는<br/>
-        //             <span>웹퍼블리셔</span><br/>
-        //             김소미입니다.</div>
-        //         </div>
-        //     </section>
-        //     <section id="contact">content is here2</section>
-        //     <section>content is here3</section>
-        // </div>
         <SectionsContainer  {...options}>
             <Section>
                 <section className="home">
@@ -64,7 +49,19 @@ function Content() {
                     </div>
                 </section>
             </Section>
-            <Section>Page 2</Section>
+            <Section>
+                <section className="home">
+                    <div>
+                        <div>
+                            <div className="img_circle">
+                                <img alt="img" src={img}/>
+                            </div>
+                        </div>
+                        <div className="text_box">
+                        </div>
+                    </div>
+                </section>
+            </Section>
             <Section>Page 3</Section>
         </SectionsContainer>
     )
