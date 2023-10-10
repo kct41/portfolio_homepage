@@ -14,15 +14,15 @@ function Nav() {
         <nav>
             <Link to="/"><h1>Logo</h1></Link>
             <ul>
-                <Link to="/">
+                <a href="#sectionOne">
                     <li>HOME</li>
-                </Link>
-                <Link to="/about">
-                    <li>ABOUT</li>
-                </Link>
-                <Link to="/portfolio">
+                </a>
+                <a href="#sectionTwo">
+                    <li>ABOUT ME</li>
+                </a>
+                <a href="#sectionThree">
                     <li>PORTFOLIO</li>
-                </Link>
+                </a>
                 <Link to="/git">
                     <li>GIT</li>
                 </Link>
