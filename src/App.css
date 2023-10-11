@@ -15,7 +15,7 @@ body{background-color: #eee;font-family: 'Noto Sans KR', sans-serif;color:#393E4
 .App.night section.about > div > div:nth-child(2){background-color:rgba(255,255,255,0.1);}
 
 /**  Nav  **/
-nav{position:fixed;z-index:100;top:0;left:0;width:100%;display:flex;justify-content:space-between;align-items:center;height:80px;padding:0 50px;}
+nav{position:fixed;z-index:100;top:0;left:0;width:100%;display:flex;justify-content:end;align-items:center;height:80px;padding:0 50px;}
 nav h1{font-size:2rem;}
 nav ul{display:flex;align-items:center;}
 nav ul a{position:relative;font-size:1rem;color:inherit;font-weight:600;text-decoration:none;margin-left:40px;}
@@ -86,7 +86,7 @@ a.Navigation-Anchor.active{background-color:#6BB8BC !important;}
     section.home > div .text_box{line-height:6.5vw;font-size:6vw;}
     section.home > div > div{width:100%;}
     section.home > div .text_box{line-height:9vw;font-size:8.5vw;margin-top:30px;}
-    section.home > div{flex-direction:column;border:1px solid black;}
+    section.home > div{flex-direction:column;}
     section.about > div{flex-direction:column;}
     section.about > div > div:first-child{width:35vw;margin-bottom:20px;}
     section.about > div > div:nth-child(2){width:100%;padding:15px;}
@@ -97,10 +97,12 @@ a.Navigation-Anchor.active{background-color:#6BB8BC !important;}
 
 @media(max-width:480px){
     html{font-size:14px;}
-    nav{height:40px;}
+    nav{height:40px;top:20px;right:50px;padding:0 20px;}
+    nav > ul > a {display:none;}
     section{max-width:80vw;}
     section.home > div .text_box{line-height:12vw;font-size:11vw;margin-top:30px;}
-    section.about > div > div:first-child{width:100%;margin-bottom:20px;}
+    section.about > div > div:first-child{display:none;margin-bottom:20px;}
     section.about > div > div:nth-child(2){width:100%;padding:15px;}
+    section.about > div > .info_box > table > tr > th{width:25%;}
     .Navigation{display:none;}
 }

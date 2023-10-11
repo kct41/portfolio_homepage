@@ -7,12 +7,10 @@ function Nav() {
     function night() {
         const app = document.querySelector('.App');
         app.classList.toggle('night');
-        console.log("why");
     }
 
     return (
         <nav>
-            <Link to="/"><h1>Logo</h1></Link>
             <ul>
                 <a href="#sectionOne">
                     <li>HOME</li>
@@ -23,9 +21,9 @@ function Nav() {
                 <a href="#sectionThree">
                     <li>PORTFOLIO</li>
                 </a>
-                <Link to="/git">
+                <a>
                     <li>GIT</li>
-                </Link>
+                </a>
                 <li className="dayNight" onClick={night}>
                     <FontAwesomeIcon className="icon" icon={faMoon}/>
                     <FontAwesomeIcon className="icon" icon={faSun}/>

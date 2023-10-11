@@ -11,7 +11,7 @@ function Content() {
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['성실빼면 시체', '책임감 있는', '웹퍼블리셔',],
+            strings: ['성실 빼면 시체', '책임감 있는', '웹퍼블리셔',],
             typeSpeed: 70,
             backSpeed: 30,
             loop: true,
