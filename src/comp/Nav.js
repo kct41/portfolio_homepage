@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMoon, faSun} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
@@ -14,7 +14,7 @@ function Nav() {
         <nav>
             <ul>
                 <li>
-                    <a href="#home" className="active">HOME</a>
+                    <a href="#home">HOME</a>
                 </li>
                 <li>
                     <a href="#about">ABOUT ME</a>

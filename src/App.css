@@ -66,8 +66,8 @@ section.about > div > .info_box > table > tbody > tr > th{width:17%;}
 
 
 .Navigation{right:95% !important;}
-a.Navigation-Anchor{padding:3px !important;background-color:#393E46 !important;}
-a.Navigation-Anchor.active{padding:3px !important;}
+/*a.Navigation-Anchor{padding:3px !important;background-color:#393E46 !important;}*/
+/*a.Navigation-Anchor.active{padding:3px !important;}*/
 
 
 /* responsive */
