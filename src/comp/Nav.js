@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMoon, faSun} from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 
 function Nav() {
 
@@ -12,18 +13,18 @@ function Nav() {
     return (
         <nav>
             <ul>
-                <a href="#sectionOne">
-                    <li>HOME</li>
-                </a>
-                <a href="#sectionTwo">
-                    <li>ABOUT ME</li>
-                </a>
-                <a href="#sectionThree">
-                    <li>PORTFOLIO</li>
-                </a>
-                <a>
-                    <li>GIT</li>
-                </a>
+                <li>
+                    <a href="#home" className="active">HOME</a>
+                </li>
+                <li>
+                    <a href="#about">ABOUT ME</a>
+                </li>
+                <li>
+                    <a href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="#git">GIT</a>
+                </li>
                 <li className="dayNight" onClick={night}>
                     <FontAwesomeIcon className="icon" icon={faMoon}/>
                     <FontAwesomeIcon className="icon" icon={faSun}/>
