@@ -1,10 +1,11 @@
+import React from 'react';
 import img from '../img/KakaoTalk_Photo_2023-10-04-14-29-41.png';
 import img2 from '../img/KakaoTalk_20231010_183406059.png';
 import img3 from '../img/KakaoTalk_20231010_191219995.jpg';
 import {ScrollToTopOnMount, SectionsContainer, Section, Header} from 'react-fullpage';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Typed from 'typed.js';
-import React from 'react';
+import {FullPage, Slide} from 'react-full-page';
 
 function Content() {
 
