@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio_homepage/static/css/main.f049f6e3.css",
-    "main.js": "/portfolio_homepage/static/js/main.d6cd204c.js",
+    "main.css": "/portfolio_homepage/static/css/main.2417d48e.css",
+    "main.js": "/portfolio_homepage/static/js/main.1593b261.js",
     "static/media/KakaoTalk_20231010_191219995.jpg": "/portfolio_homepage/static/media/KakaoTalk_20231010_191219995.e06934ab4f092f7a7f50.jpg",
     "static/media/KakaoTalk_20231010_183406059.png": "/portfolio_homepage/static/media/KakaoTalk_20231010_183406059.7d8ea2626ee662133a57.png",
     "static/media/KakaoTalk_Photo_2023-10-04-14-29-41.png": "/portfolio_homepage/static/media/KakaoTalk_Photo_2023-10-04-14-29-41.b31b0ebca7facc1bde3e.png",
     "index.html": "/portfolio_homepage/index.html",
-    "main.f049f6e3.css.map": "/portfolio_homepage/static/css/main.f049f6e3.css.map",
-    "main.d6cd204c.js.map": "/portfolio_homepage/static/js/main.d6cd204c.js.map"
+    "main.2417d48e.css.map": "/portfolio_homepage/static/css/main.2417d48e.css.map",
+    "main.1593b261.js.map": "/portfolio_homepage/static/js/main.1593b261.js.map"
   },
   "entrypoints": [
-    "static/css/main.f049f6e3.css",
-    "static/js/main.d6cd204c.js"
+    "static/css/main.2417d48e.css",
+    "static/js/main.1593b261.js"
   ]
 }
